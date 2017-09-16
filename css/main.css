@@ -13,14 +13,17 @@ body {
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
-  color: red; }
+  color: red; 
+}
 
 body input:required:valid,
 body textarea:required:valid {
-  color: green; }
+  color: green; 
+}
 
 .hidden {
-  display: none; }
+  display: none; 
+}
 
 .left_side {
   background-color: #111;
@@ -104,4 +107,14 @@ body textarea:required:valid {
   width: 120px;
   height: 120px;
   border-radius: 50%;
+}
+
+.user_info h2 {
+  font-size: 16px;
+}
+
+.user_info p {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #777;
 }
